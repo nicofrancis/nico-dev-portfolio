@@ -7,3 +7,4 @@ export { default as Navbar } from "./Navbar";
 export { default as Projects } from "./Projects";
 export { default as Skills } from "./Skills";
 export { default as ViewProjects } from "./ViewProjects";
+export { default as ProjectCard } from "./ProjectCard";

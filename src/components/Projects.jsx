@@ -21,7 +21,7 @@ const Projects = () => {
             Check out some of my recent work.
           </p>
           {/* Container */}
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-center">
             {/* Grid Item */}
             {project.map((project, index) => (
               <div>
@@ -29,6 +29,24 @@ const Projects = () => {
                   src={project.img}
                   className="rounded-md flex justify-center items-center mx-auto content-div transition duration-300 hover:scale-105 "
                 ></img>
+                <p className={`${styles.paragraph} ${styles.heading3}`}>
+                  {project.title}
+                </p>
+                <p className={`${styles.paragraph} ${styles.marginX}`}>
+                  {project.description}
+                </p>
+
+                <a href={project.site}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+
+                <a href={project.github}>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             ))}
           </div>
