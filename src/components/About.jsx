@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "../style";
-import Skills from "./Skills";
 
 const About = () => (
   <section
     id="about"
-    className={`flex md:flex-row flex-col ${styles.flexCenter}`}
+    className={`flex md:flex-row flex-col ${styles.marginY} ${styles.flexCenter}`}
   >
     <div className={`flex-2  flex-col xl:px-0 sm:px-16 px-6`}>
       <h1
@@ -13,7 +12,7 @@ const About = () => (
       >
         About
       </h1>
-      <p className={`${styles.paragraph} max-w-6xl mt-5`}>
+      <p className={`${styles.paragraph} ${styles.marginY} max-w-6xl`}>
         I'm Nico, a passionate web developer bringing you programming and design
         from the future. I am experienced in developing web applications. This
         includes brand identity, graphics and illustrations.

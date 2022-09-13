@@ -17,14 +17,16 @@ import {
 } from "../assets";
 
 const Skills = () => (
-  <section id="about" className={`flex flex-1 flex-col ${styles.paddingY}`}>
+  <section id="skills" className={`flex flex-1 flex-col ${styles.paddingY}`}>
     <div className={`flex-2  flex-col xl:px-0 sm:px-16 px-6`}>
       <h1
         className={`flex-2 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ${styles.flexCenter}`}
       >
         Skills
       </h1>
-      <p className={`${styles.paragraph} mt-5 mb-5 ${styles.flexCenter}`}>
+      <p
+        className={`${styles.paragraph} ${styles.marginY} ${styles.flexCenter}`}
+      >
         This is a list of frameworks and languages I am experienced with:
       </p>
     </div>

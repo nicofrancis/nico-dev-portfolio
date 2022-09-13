@@ -18,6 +18,7 @@ import linkedin from "./linkedin.svg";
 import prisma from "./prisma.png";
 import git from "./git.png";
 import express from "./express.png";
+import profilepic from "./profilepic.png";
 
 export {
   css,
@@ -40,4 +41,5 @@ export {
   prisma,
   git,
   express,
+  profilepic,
 };
