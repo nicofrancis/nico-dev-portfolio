@@ -19,6 +19,9 @@ import prisma from "./prisma.png";
 import git from "./git.png";
 import express from "./express.png";
 import profilepic from "./profilepic.png";
+import fsf from "./fsf.png";
+import tictac from "./tictac.png";
+import trackr from "./trackr.png";
 
 export {
   css,
@@ -42,4 +45,7 @@ export {
   git,
   express,
   profilepic,
+  fsf,
+  tictac,
+  trackr,
 };

@@ -1,4 +1,4 @@
-import { linkedin } from "../assets";
+import { linkedin, fsf, tictac, trackr } from "../assets";
 
 export const navLinks = [
   {
@@ -93,26 +93,29 @@ export const socialMedia = [
   },
 ];
 
-export const projects = [
+export const project = [
   {
+    id: 1,
     title: "Fullstack Felines",
     description:
       "An online pet store ecommerce site for selling exotic kittens.",
-    img: "https://res.cloudinary.com/dkmoq49jf/image/upload/v1662671971/fullstack-felines-screenshot_qzvjve.png",
+    img: fsf,
     site: "https://fullstack-felines.herokuapp.com/",
     github: "https://github.com/Fullstack-Felines/grace_shopper",
   },
   {
+    id: 2,
     title: "Fitness Trackr",
     description: "a really really reaaaally generic description.",
-    img: "https://res.cloudinary.com/dkmoq49jf/image/upload/v1662671428/fitnesstrackr-bg_ex2jno.png",
+    img: trackr,
     site: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
     github: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
   },
   {
+    id: 3,
     title: "Tic-Tac-Toe",
     description: "A tic-tac-toe arcade game created from scratch.",
-    img: "https://res.cloudinary.com/dkmoq49jf/image/upload/v1662672476/tic-tac-screenshot_bk5fbs.png",
+    img: tictac,
     site: "https://cheerful-frangipane-fe6f64.netlify.app/",
     github: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
   },

@@ -4,11 +4,11 @@ import styles from "../style";
 const About = () => (
   <section
     id="about"
-    className={`flex md:flex-row flex-col ${styles.marginY} ${styles.flexCenter}`}
+    className={`${styles.marginY} ${styles.flexCenter} flex md:flex-row flex-col`}
   >
     <div className={`flex-2  flex-col xl:px-0 sm:px-16 px-6`}>
       <h1
-        className={`flex-2 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ${styles.flexCenter}`}
+        className={`${styles.flexCenter} flex-2 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]`}
       >
         About
       </h1>
