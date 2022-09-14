@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../style";
+import styles, { layout } from "../style";
 
 import {
   html,
@@ -32,8 +32,12 @@ const Skills = () => (
     </div>
 
     <div className="w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4 text-center py-8">
-      <div className="hover:scale-110 duration-500">
-        <img className="w-20 mx-auto" src={html} alt="HTML icon" />
+      <div className={`hover:scale-110 duration-500`}>
+        <img
+          className="w-20 mx-auto relative z-[5]"
+          src={html}
+          alt="HTML icon"
+        />
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>HTML</p>
       </div>
       <div className="hover:scale-110 duration-500">

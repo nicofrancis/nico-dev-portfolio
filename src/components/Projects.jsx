@@ -27,7 +27,7 @@ const Projects = () => {
               <div>
                 <img
                   src={project.img}
-                  className="rounded-md flex justify-center items-center mx-auto content-div transition duration-300 hover:scale-105 "
+                  className="rounded-md flex justify-center items-center mx-auto content-div transition duration-300 hover:scale-105 cursor-pointer"
                 ></img>
                 <p className={`${styles.paragraph} ${styles.heading3}`}>
                   {project.title}

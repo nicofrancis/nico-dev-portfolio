@@ -8,7 +8,6 @@ import {
   Navbar,
   Projects,
   Skills,
-  ProjectCard,
 } from "./components";
 
 const App = () => (
@@ -30,7 +29,6 @@ const App = () => (
         <About />
         <Skills />
         <Projects />
-        <ProjectCard />
         <Contact />
         <Footer />
       </div>

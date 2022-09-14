@@ -16,13 +16,17 @@ const Hero = () => (
       </div>
 
       <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
-        I’m a fullstack software engineer specializing in building exceptional
-        digital experiences. Here to turn your ideas into reality.
+        I’m a fullstack web developer specializing in building exceptional
+        digital experiences. Here to turn your greatest ideas into reality.
       </p>
     </div>
 
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-      <img src={logo} alt="hero" className="w-[100%] h-[100%] relative z-[5]" />
+      <img
+        src={logo}
+        alt="hero"
+        className="w-[100%] h-[100%] relative z-[5] hover:"
+      />
 
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
