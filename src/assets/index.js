@@ -22,6 +22,7 @@ import profilepic from "./profilepic.png";
 import fsf from "./fsf.png";
 import tictac from "./tictac.png";
 import trackr from "./trackr.png";
+import instagram from "./instagram.svg";
 
 export {
   css,
@@ -48,4 +49,5 @@ export {
   fsf,
   tictac,
   trackr,
+  instagram,
 };

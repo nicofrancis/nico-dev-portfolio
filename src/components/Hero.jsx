@@ -8,15 +8,15 @@ const Hero = () => (
     >
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          <span>I'm Nico</span>
+          <span>I'm Nico.</span>
           <br className="sm:block hidden" />{" "}
           <span className="text-gradient">I build things</span>
-          <br className="sm:block hidden" />
+          <br className="sm:block hidden" />{" "}
           <span className="text-gradient">for the web.</span>
         </h1>
       </div>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
         I’m a fullstack software engineer specializing in building exceptional
         digital experiences. Here to turn your ideas into reality.
       </p>
