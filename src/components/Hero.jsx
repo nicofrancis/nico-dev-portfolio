@@ -10,8 +10,7 @@ const Hero = () => (
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
           <span>I'm Nico.</span>
           <br className="sm:block hidden" />{" "}
-          <span className="text-gradient">I build things</span>
-          <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">I build things</span>{" "}
           <span className="text-gradient">for the web.</span>
         </h1>
       </div>

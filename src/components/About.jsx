@@ -12,10 +12,15 @@ const About = () => (
       >
         About
       </h1>
-      <p className={`${styles.paragraph} ${styles.marginY} max-w-6xl`}>
-        I'm Nico, a passionate web developer bringing you programming and design
-        from the future. I am experienced in developing web applications. This
-        includes brand identity, graphics and illustrations.
+      <p
+        className={`${styles.paragraph} ${styles.marginY} text-center max-w-6xl`}
+      >
+        I'm a Respiratory Therapist turned Web Developer. At 30 years old I
+        decided to leave my job and pursue my passion of working in web
+        development. I completed an intensive web development bootcamp at
+        Fullstack Academy where I sharpened my coding abilities. I now spend my
+        time creating, designing, and coding my way through new projects, taking
+        on any challenge I can.
       </p>
     </div>
   </section>

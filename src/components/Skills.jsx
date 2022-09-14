@@ -18,17 +18,17 @@ import {
 
 const Skills = () => (
   <section id="skills" className={`flex flex-1 flex-col ${styles.paddingY}`}>
-    <div className={`flex-2  flex-col xl:px-0 sm:px-16 px-6`}>
+    <div className={`flex-2  flex-col xl:px-0 sm:px-16 px-6 ${styles.marginY}`}>
       <h1
         className={`flex-2 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ${styles.flexCenter}`}
       >
         Skills
       </h1>
-      <p
+      {/* <p
         className={`${styles.paragraph} ${styles.marginY} ${styles.flexCenter}`}
       >
         This is a list of frameworks and languages I am experienced with:
-      </p>
+      </p> */}
     </div>
 
     <div className="w-full grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-4 text-center py-8">
@@ -61,7 +61,11 @@ const Skills = () => (
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>POSTGRESQL</p>
       </div>
       <div className="hover:scale-110 duration-500">
-        <img className="w-24 h-16 mx-auto" src={tailwind} alt="HTML icon" />
+        <img
+          className="w-24 h-16 mb-10 mx-auto"
+          src={tailwind}
+          alt="HTML icon"
+        />
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>TAILWINDCSS</p>
       </div>
       <div className=" hover:scale-110 duration-500">
