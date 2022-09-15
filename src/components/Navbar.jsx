@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu, profilepic } from "../assets";
+import { close, menu, profilepic, eyelogo } from "../assets";
 
 import { navLinks } from "../constants";
 import styles from "../style";
@@ -9,11 +9,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={profilepic} alt="logo" className="h-30 w-24" />
-      <h1 className="font-poppins font-semibold xs:text-[22px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]">
+    <nav
+      className={`${styles.paddingX} w-full flex py-6 justify-between items-center navbar`}
+    >
+      <img src={eyelogo} alt="logo" className="h-30 w-24" />
+      {/* <h1 className="invisible sm:visible font-poppins font-semibold xs:text-[22px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]">
         nicolo.francis
-      </h1>
+      </h1> */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

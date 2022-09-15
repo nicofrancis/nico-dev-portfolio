@@ -37,7 +37,7 @@ export const project = [
     id: 1,
     title: "Fullstack Felines",
     description:
-      "An online pet store ecommerce site for selling exotic kittens.",
+      "An online pet store ecommerce site that sells exotic kittens. This project was created using Prisma, Express, React and TailwindCSS.",
     img: fsf,
     site: "https://fullstack-felines.herokuapp.com/",
     github: "https://github.com/Fullstack-Felines/grace_shopper",
@@ -45,15 +45,17 @@ export const project = [
   {
     id: 2,
     title: "Fitness Trackr",
-    description: "a really really reaaaally generic description.",
+    description:
+      "I built an API and consumed it for this fitness tracking app made using React, Node, Express, and PostgreSQL",
     img: trackr,
-    site: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
+    site: "https://warm-mountain-02562.herokuapp.com/Home",
     github: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
   },
   {
     id: 3,
     title: "Tic-Tac-Toe",
-    description: "A tic-tac-toe arcade game created from scratch.",
+    description:
+      "A tic-tac-toe arcade game created from scratch using vanilla JavaScript, HTML, and CSS.",
     img: tictac,
     site: "https://cheerful-frangipane-fe6f64.netlify.app/",
     github: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",

@@ -36,17 +36,23 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                <a href={project.site}>
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
+                <div className="flex justify-center">
+                  <a href={project.site}>
+                    <button
+                      className={`${styles.paragraph} text-white rounded-lg hover:text-secondary border-2 hover:bg-primary hover:border-secondary  px-4 py-2 m-4 text-center`}
+                    >
+                      Demo
+                    </button>
+                  </a>
 
-                <a href={project.github}>
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
+                  <a href={project.github}>
+                    <button
+                      className={`${styles.paragraph} text-white rounded-lg hover:text-secondary border-2 hover:bg-primary hover:border-secondary  px-4 py-2 m-4 text-center`}
+                    >
+                      Code
+                    </button>
+                  </a>
+                </div>
               </div>
             ))}
           </div>

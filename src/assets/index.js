@@ -23,6 +23,8 @@ import fsf from "./fsf.png";
 import tictac from "./tictac.png";
 import trackr from "./trackr.png";
 import instagram from "./instagram.svg";
+import eyelogo from "./eye-logo.png";
+import favicon from "./favicon.png";
 
 export {
   css,
@@ -50,4 +52,6 @@ export {
   tictac,
   trackr,
   instagram,
+  eyelogo,
+  favicon,
 };
