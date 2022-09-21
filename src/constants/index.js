@@ -28,7 +28,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/nicolofrancis/",
   },
 ];
 
@@ -58,6 +58,6 @@ export const project = [
       "A tic-tac-toe arcade game created from scratch using vanilla JavaScript, HTML, and CSS.",
     img: tictac,
     site: "https://cheerful-frangipane-fe6f64.netlify.app/",
-    github: "https://github.com/nicofrancis/UNIV_FitnessTrackr_Starter",
+    github: "https://github.com/nicofrancis/arcade",
   },
 ];

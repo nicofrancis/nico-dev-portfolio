@@ -12,7 +12,11 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex py-6 justify-between items-center navbar`}
     >
-      <img src={eyelogo} alt="logo" className="h-30 w-24" />
+      <img
+        src={eyelogo}
+        alt="logo"
+        className="h-30 w-24 hover:animate-pulse duration-500 ease-out hover:ease-in hover:scale-125 "
+      />
       {/* <h1 className="invisible sm:visible font-poppins font-semibold xs:text-[22px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px]">
         nicolo.francis
       </h1> */}

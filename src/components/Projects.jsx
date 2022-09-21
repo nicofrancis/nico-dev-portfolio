@@ -32,9 +32,7 @@ const Projects = () => {
                 <p className={`${styles.paragraph} ${styles.heading3}`}>
                   {project.title}
                 </p>
-                <p className={`${styles.paragraph} ${styles.marginX}`}>
-                  {project.description}
-                </p>
+                <p className={`${styles.paragraph}`}>{project.description}</p>
 
                 <div className="flex justify-center">
                   <a href={project.site}>
